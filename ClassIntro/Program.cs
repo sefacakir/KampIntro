@@ -19,10 +19,10 @@ namespace ClassIntro
 
             Kurs[] kurslar = new Kurs[] { kurs1, kurs2 };
 
-            foreach (Kurs item in kurslar)
+            foreach (Kurs item in kurslar) 
             {
                 Console.WriteLine(item.Egitmen);
-                Console.WriteLine(item.IzlenmeOrani);
+                Console.WriteLine(item.IzlenmeOrani); 
                 Console.WriteLine(item.KursAdi);
             }
         }
